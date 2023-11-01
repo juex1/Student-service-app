@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/am4"
+            android:title="Home">
+        </item>
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/juex"
+            android:title="Campus Life">
+        </item>
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/am4"
+            android:title="Exit">
+        </item>
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/am4"
+                    android:title="About" />
+                <item
+                    android:id="@+id/developers"
+                    android:icon="@drawable/juex"
+                    android:title="Developers " />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communication">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/am4"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/rate_us"
+                    android:icon="@drawable/beyanat"
+                    android:title="Rate Us" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
